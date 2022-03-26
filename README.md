@@ -1,3 +1,3 @@
 # pandit-packages
 
-Authoratative repo for pandit's built-in package manager.
+Authoritative repo for pandit's built-in package manager.
