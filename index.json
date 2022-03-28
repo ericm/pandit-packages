@@ -3,8 +3,11 @@
     "test": {
       "version": "1.0.0",
       "image": {
-        "type": "Docker",
-        "compose_file": "ubuntu.yml"
+        "type": "Helm",
+        "repo_url": "https://charts.bitnami.com/bitnami",
+        "repo_name": "bitnami",
+        "chart": "bitnami/redis",
+        "container_name": "redis"
       }
     }
   }
